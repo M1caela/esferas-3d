@@ -1,0 +1,10 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  user-select: none; /* evita que al hacer touch desde versión mobile se "seleccione" la imagen */
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
